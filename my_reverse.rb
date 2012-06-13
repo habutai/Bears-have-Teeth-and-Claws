@@ -1,18 +1,15 @@
-puts "Hello! Please enter a string for me to reverse for you!"
+def my_reverse
+  puts "Hello! Please enter a string for me to reverse for you!"
 
-wordstring = gets.chomp
-wordarray = wordstring.chars.to_a
-backwards = []
+  wordstring = gets.chomp
+  wordarray = wordstring.chars.to_a
+  backwards = []
 
-i = wordarray.length
+  i = wordarray.length
 
-  while i>0
-    backwards.push wordarray[i-=1]
-  end
+    while i>0
+      backwards.push wordarray[i-=1]
+    end
 
-puts backwards.join
-
-  
-  
-  
-  
+  puts backwards.join
+end
