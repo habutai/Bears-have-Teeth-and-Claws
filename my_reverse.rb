@@ -1,7 +1,4 @@
-def my_reverse
-  puts "Hello! Please enter a string for me to reverse for you!"
-
-  wordstring = gets.chomp
+def my_reverse(wordstring)
   wordarray = wordstring.chars.to_a
   backwards = []
 
